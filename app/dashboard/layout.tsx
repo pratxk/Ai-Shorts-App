@@ -8,12 +8,12 @@ function DashboardLayout({ children }: {
     return (
         <>
             <div>
-                <div className='hidden md:block h-screen bg-white fixed mt-[65px]'>
+                <div className='hidden md:block h-screen bg-white absolute mt-[65px]'>
                     <SideNav />
                 </div>
                 <div>
                     <Header />
-                    <div className='md:ml-64'>
+                    <div className='md:ml-64 p-10'>
                         {children}
                     </div>
                 </div>
